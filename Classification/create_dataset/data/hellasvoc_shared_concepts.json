@@ -1,0 +1,399 @@
+[
+  {
+    "concept_id": "2043",
+    "eurovoc_id": "2043",
+    "concept_uri": "http://eurovoc.europa.eu/2043",
+    "label_from_id_to_info": "φορτηγό πλοίο",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1738",
+        "label": "Φορτηγά 501-4500 τόννων"
+      },
+      {
+        "id": "1743",
+        "label": "Φορτηγά πλοία άνω των 4500 τόννων"
+      },
+      {
+        "id": "1744",
+        "label": "Φορτηγά ακτοπλοϊκά πλοία (M/S) μέχρι 500 κ.ο.χ."
+      }
+    ]
+  },
+  {
+    "concept_id": "4113",
+    "eurovoc_id": "4113",
+    "concept_uri": "http://eurovoc.europa.eu/4113",
+    "label_from_id_to_info": "υπηρεσία απασχόλησης",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1286",
+        "label": "Γραφεία εύρεσης εργασίας"
+      },
+      {
+        "id": "1292",
+        "label": "Οργανισμός Απασχόλησης Εργατικού Δυναμικού (Ο.Α.Ε.Δ.)"
+      }
+    ]
+  },
+  {
+    "concept_id": "3749",
+    "eurovoc_id": "3749",
+    "concept_uri": "http://eurovoc.europa.eu/3749",
+    "label_from_id_to_info": "εξορυκτική επιχείρηση",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1199",
+        "label": "Μεταλλεία"
+      },
+      {
+        "id": "1202",
+        "label": "Ορυχεία"
+      },
+      {
+        "id": "1203",
+        "label": "Λατομεία"
+      }
+    ]
+  },
+  {
+    "concept_id": "5963",
+    "eurovoc_id": "5963",
+    "concept_uri": "http://eurovoc.europa.eu/5963",
+    "label_from_id_to_info": "επιταγή",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "2264",
+        "label": "Τραπεζογραμμάτια"
+      },
+      {
+        "id": "989",
+        "label": "Τραπεζική επιταγή"
+      }
+    ]
+  },
+  {
+    "concept_id": "2628",
+    "eurovoc_id": "2628",
+    "concept_uri": "http://eurovoc.europa.eu/2628",
+    "label_from_id_to_info": "στρατός",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "2997",
+        "label": "Ένοπλες δυνάμεις"
+      },
+      {
+        "id": "572",
+        "label": "Στρατός"
+      }
+    ]
+  },
+  {
+    "concept_id": "4127",
+    "eurovoc_id": "4127",
+    "concept_uri": "http://eurovoc.europa.eu/4127",
+    "label_from_id_to_info": "στρατιωτική θητεία",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "2974",
+        "label": "Στρατολογία"
+      },
+      {
+        "id": "573",
+        "label": "Στρατιωτική θητεία"
+      }
+    ]
+  },
+  {
+    "concept_id": "5416",
+    "eurovoc_id": "5416",
+    "concept_uri": "http://eurovoc.europa.eu/5416",
+    "label_from_id_to_info": "αγωγή αποζημίωσης",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "954",
+        "label": "Αγωγές γιατρών"
+      },
+      {
+        "id": "956",
+        "label": "Αγωγές ασφαλίστρων"
+      }
+    ]
+  },
+  {
+    "concept_id": "1545",
+    "eurovoc_id": "1545",
+    "concept_uri": "http://eurovoc.europa.eu/1545",
+    "label_from_id_to_info": "ποινικό δικαστήριο",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "737",
+        "label": "Πταισματοδικεία"
+      },
+      {
+        "id": "898",
+        "label": "Κακουργιοδικεία"
+      }
+    ]
+  },
+  {
+    "concept_id": "1543",
+    "eurovoc_id": "1543",
+    "concept_uri": "http://eurovoc.europa.eu/1543",
+    "label_from_id_to_info": "τακτικό δικαστήριο",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "735",
+        "label": "Πρωτοδικεία"
+      },
+      {
+        "id": "736",
+        "label": "Ειρηνοδικεία"
+      }
+    ]
+  },
+  {
+    "concept_id": "7193",
+    "eurovoc_id": "7193",
+    "concept_uri": "http://eurovoc.europa.eu/7193",
+    "label_from_id_to_info": "Διεθνές ποινικό δικαστήριο",
+    "description_from_id_to_info": "Ανεξάρτητο μόνιμο δικαστήριο ενώπιον του οποίου κρίνονται τα πρόσωπα που κατηγορούνται για τα πιο σοβαρά εγκλήματα που θίγουν τη διεθνή κοινότητα, δηλαδή τα εγκλήματα γενοκτονίας, τα εγκλήματα κατά της ανθρωπότητας και τα εγκλήματα πολέμου.",
+    "hellasvoc_concepts": [
+      {
+        "id": "741",
+        "label": "Δικαστικά καταστήματα"
+      },
+      {
+        "id": "742",
+        "label": "Δικαστικές διακοπές"
+      },
+      {
+        "id": "743",
+        "label": "Αντιγραφικά δικαιώματα"
+      },
+      {
+        "id": "744",
+        "label": "Αρχεία δικαστηρίων"
+      },
+      {
+        "id": "745",
+        "label": "Βιβλιοθήκες δικαστηρίων"
+      },
+      {
+        "id": "746",
+        "label": "Μεταφραστικά γραφεία δικαστηρίων"
+      }
+    ]
+  },
+  {
+    "concept_id": "1548",
+    "eurovoc_id": "1548",
+    "concept_uri": "http://eurovoc.europa.eu/1548",
+    "label_from_id_to_info": "ανώτατο δικαστήριο",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "445",
+        "label": "Ανώτατο Ειδικό Δικαστήριο"
+      },
+      {
+        "id": "733",
+        "label": "Άρειος Πάγος"
+      }
+    ]
+  },
+  {
+    "concept_id": "3929",
+    "eurovoc_id": "3929",
+    "concept_uri": "http://eurovoc.europa.eu/3929",
+    "label_from_id_to_info": "ιδιοκτησία",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "802",
+        "label": "Εμπράγματο Δίκαιο"
+      },
+      {
+        "id": "809",
+        "label": "Ιδιοκτησία"
+      }
+    ]
+  },
+  {
+    "concept_id": "2440",
+    "eurovoc_id": "2440",
+    "concept_uri": "http://eurovoc.europa.eu/2440",
+    "label_from_id_to_info": "αστυνομία",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "88",
+        "label": "Αστυνομικοί σκύλοι"
+      },
+      {
+        "id": "90",
+        "label": "Αστυνομία"
+      }
+    ]
+  },
+  {
+    "concept_id": "1010",
+    "eurovoc_id": "1010",
+    "concept_uri": "http://eurovoc.europa.eu/1010",
+    "label_from_id_to_info": "χρηματοδότηση των εξαγωγών",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1034",
+        "label": "Ενίσχυση εξαγωγής"
+      },
+      {
+        "id": "1035",
+        "label": "Χρηματοδότηση των εξαγωγών"
+      }
+    ]
+  },
+  {
+    "concept_id": "4463",
+    "eurovoc_id": "4463",
+    "concept_uri": "http://eurovoc.europa.eu/4463",
+    "label_from_id_to_info": "πιστωτικός τίτλος",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "991",
+        "label": "Συναλλαγματικές"
+      },
+      {
+        "id": "992",
+        "label": "Γραμμάτια σε διαταγή"
+      }
+    ]
+  },
+  {
+    "concept_id": "4133",
+    "eurovoc_id": "4133",
+    "concept_uri": "http://eurovoc.europa.eu/4133",
+    "label_from_id_to_info": "ταχυδρομική υπηρεσία",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1885",
+        "label": "Ταχυδρομεία"
+      },
+      {
+        "id": "1905",
+        "label": "Ταχυδρομικές μεταφορές"
+      },
+      {
+        "id": "1906",
+        "label": "Ταχυδρομικά δέματα"
+      }
+    ]
+  },
+  {
+    "concept_id": "4118",
+    "eurovoc_id": "4118",
+    "concept_uri": "http://eurovoc.europa.eu/4118",
+    "label_from_id_to_info": "χρηματοοικονομικές υπηρεσίες των ταχυδρομείων",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "1910",
+        "label": "Ταχυδρομικές επιταγές"
+      },
+      {
+        "id": "1911",
+        "label": "Είσπραξη αξιών"
+      },
+      {
+        "id": "1916",
+        "label": "Ταχυδρομικά ταμιευτήρια"
+      }
+    ]
+  },
+  {
+    "concept_id": "1527",
+    "eurovoc_id": "1527",
+    "concept_uri": "http://eurovoc.europa.eu/1527",
+    "label_from_id_to_info": "τυχερά παιχνίδια",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "186",
+        "label": "Έρανοι"
+      },
+      {
+        "id": "2214",
+        "label": "Λαχεία"
+      },
+      {
+        "id": "663",
+        "label": "Τυχερά παιγνίδια"
+      }
+    ]
+  },
+  {
+    "concept_id": "826",
+    "eurovoc_id": "826",
+    "concept_uri": "http://eurovoc.europa.eu/826",
+    "label_from_id_to_info": "ενίσχυση των οικονομικώς αδυνάτων",
+    "description_from_id_to_info": "",
+    "hellasvoc_concepts": [
+      {
+        "id": "216",
+        "label": "Φιλανθρωπικά ιδρύματα"
+      },
+      {
+        "id": "218",
+        "label": "Ενίσχυση των οικονομικώς αδυνάτων"
+      }
+    ]
+  },
+  {
+    "concept_id": "4793",
+    "eurovoc_id": "4793",
+    "concept_uri": "http://eurovoc.europa.eu/4793",
+    "label_from_id_to_info": "ελεύθερη ζώνη",
+    "description_from_id_to_info": "Περιοχή μέσα στην οποία μπορεί νά γίνεται η εκφόρτωση και η αποθήκευση των εμπορευμάτων χωρίς την καταβολή τελωνειακών δασμών.",
+    "hellasvoc_concepts": [
+      {
+        "id": "1807",
+        "label": "Ίδρυση ελεύθερης ζώνης σε διάφορα λιμάνια της χώρας"
+      },
+      {
+        "id": "2437",
+        "label": "Ελεύθερα τελωνειακά συγκροτήματα"
+      },
+      {
+        "id": "2441",
+        "label": "Καταστήματα αφορολόγητων ειδών"
+      }
+    ]
+  },
+  {
+    "concept_id": "c_814bb9e4",
+    "eurovoc_id": null,
+    "concept_uri": "http://eurovoc.europa.eu/c_814bb9e4",
+    "label_from_id_to_info": "νόσος από κορονοϊό",
+    "description_from_id_to_info": "Νόσος που προκαλείται από μέλη της οικογένειας των κορονοϊών (CoV).",
+    "hellasvoc_concepts": [
+      {
+        "id": "1005",
+        "label": "Κορωνοϊοί"
+      },
+      {
+        "id": "312",
+        "label": "Λοιμώδη νοσήματα"
+      }
+    ]
+  }
+]

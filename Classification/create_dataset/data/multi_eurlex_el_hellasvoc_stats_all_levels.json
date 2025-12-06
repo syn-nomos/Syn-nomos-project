@@ -1,0 +1,135 @@
+{
+  "levels": {
+    "level_1": {
+      "splits": {
+        "train": {
+          "num_docs_total_in_split": 55000,
+          "num_docs_exported_with_hellasvoc": 51991,
+          "num_docs_without_hellasvoc_mapping": 3009,
+          "num_unique_hellasvoc_labels": 13,
+          "avg_hellasvoc_labels_per_doc": 1.9275066838491277,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 8
+        },
+        "dev": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 4861,
+          "num_docs_without_hellasvoc_mapping": 139,
+          "num_unique_hellasvoc_labels": 13,
+          "avg_hellasvoc_labels_per_doc": 2.286360831104711,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 6
+        },
+        "test": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 4825,
+          "num_docs_without_hellasvoc_mapping": 175,
+          "num_unique_hellasvoc_labels": 13,
+          "avg_hellasvoc_labels_per_doc": 2.16559585492228,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 8
+        }
+      },
+      "eurovoc": {
+        "num_eurovoc_ids_in_multi_eurlex": 21,
+        "num_eurovoc_ids_in_hellasvoc": 479,
+        "num_eurovoc_ids_in_multi_not_in_hellas": 8
+      },
+      "hellasvoc": {
+        "num_hellasvoc_labels_with_eurovoc_uri": 719,
+        "num_hellasvoc_labels_used_in_multi_eurlex": 13,
+        "num_hellasvoc_labels_never_used_in_multi_eurlex": 703
+      }
+    },
+    "level_2": {
+      "splits": {
+        "train": {
+          "num_docs_total_in_split": 55000,
+          "num_docs_exported_with_hellasvoc": 17981,
+          "num_docs_without_hellasvoc_mapping": 37019,
+          "num_unique_hellasvoc_labels": 20,
+          "avg_hellasvoc_labels_per_doc": 1.1746843890773595,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        },
+        "dev": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 1796,
+          "num_docs_without_hellasvoc_mapping": 3204,
+          "num_unique_hellasvoc_labels": 20,
+          "avg_hellasvoc_labels_per_doc": 1.3619153674832962,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        },
+        "test": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 1962,
+          "num_docs_without_hellasvoc_mapping": 3038,
+          "num_unique_hellasvoc_labels": 20,
+          "avg_hellasvoc_labels_per_doc": 1.3404689092762487,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        }
+      },
+      "eurovoc": {
+        "num_eurovoc_ids_in_multi_eurlex": 127,
+        "num_eurovoc_ids_in_hellasvoc": 479,
+        "num_eurovoc_ids_in_multi_not_in_hellas": 107
+      },
+      "hellasvoc": {
+        "num_hellasvoc_labels_with_eurovoc_uri": 719,
+        "num_hellasvoc_labels_used_in_multi_eurlex": 20,
+        "num_hellasvoc_labels_never_used_in_multi_eurlex": 697
+      }
+    },
+    "level_3": {
+      "splits": {
+        "train": {
+          "num_docs_total_in_split": 55000,
+          "num_docs_exported_with_hellasvoc": 27522,
+          "num_docs_without_hellasvoc_mapping": 27478,
+          "num_unique_hellasvoc_labels": 77,
+          "avg_hellasvoc_labels_per_doc": 1.2930019620667104,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        },
+        "dev": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 3117,
+          "num_docs_without_hellasvoc_mapping": 1883,
+          "num_unique_hellasvoc_labels": 72,
+          "avg_hellasvoc_labels_per_doc": 1.4873275585498877,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        },
+        "test": {
+          "num_docs_total_in_split": 5000,
+          "num_docs_exported_with_hellasvoc": 2835,
+          "num_docs_without_hellasvoc_mapping": 2165,
+          "num_unique_hellasvoc_labels": 71,
+          "avg_hellasvoc_labels_per_doc": 1.6045855379188712,
+          "min_hellasvoc_labels_per_doc": 1,
+          "max_hellasvoc_labels_per_doc": 5
+        }
+      },
+      "eurovoc": {
+        "num_eurovoc_ids_in_multi_eurlex": 512,
+        "num_eurovoc_ids_in_hellasvoc": 479,
+        "num_eurovoc_ids_in_multi_not_in_hellas": 437
+      },
+      "hellasvoc": {
+        "num_hellasvoc_labels_with_eurovoc_uri": 719,
+        "num_hellasvoc_labels_used_in_multi_eurlex": 77,
+        "num_hellasvoc_labels_never_used_in_multi_eurlex": 609
+      }
+    }
+  },
+  "global": {
+    "language": "el",
+    "label_levels": [
+      "level_1",
+      "level_2",
+      "level_3"
+    ]
+  }
+}
