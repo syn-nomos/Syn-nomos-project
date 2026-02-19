@@ -21,7 +21,20 @@ This module concentrates on producing high-quality annotated data for **Named En
 *   **Key Components:**
     *   `Semi-automated Annotation Framework`: A Human-in-the-Loop (HITL) application built with Streamlit for supervising and correcting algorithm predictions.
 
-### 3. General Purpose Toolbox
+### 3. EUR-Lex
+*Located in:* `/EUR-Lex`
+This module builds a high-quality corpus of Greek EUR-Lex summaries and their corresponding full legal texts.
+* **Key Components:**
+    * `eur_lex_scraper.py`: Crawls the EUR-Lex platform, extracting summaries and full texts by CELEX ID across specified thematic topics.
+    * `eur_lex_cleaner.py`: Validates, cleans, and standardizes the scraped data into a strict structure, outputting single-line text files optimized for NLP modeling.
+
+### 4. Reference Texts
+*Located in:* `/Reference Texts`
+This module creates a standardized reference dataset of national Greek legislation.
+* **Key Components:**
+    * `scraper.py`: Automates text extraction from complex legal structures and enriches metadata by cross-referencing with the National Printing House (ET.gr), outputting clean text files and a comprehensive CSV index.
+
+### 5. General Purpose Toolbox
 *Located in:* `/General Purpose Toolbox`
 A designated space for cross-functional utilities and future general-purpose scripts that apply across different domains of the project.
 
@@ -91,12 +104,23 @@ To set up the environment for the general toolbox:
 Η ενότητα αυτή εστιάζει στην παραγωγή υψηλής ποιότητας επισημειωμένων δεδομένων για την εκπαίδευση μοντέλων Αναγνώρισης Ονοματισμένων Οντοτήτων (Named Entity Recognition).
 *   **Semi-Automated Annotation Framework**: Πρόκειται για ένα εξειδικευμένο πλαίσιο ημιαυτόματης επισημείωσης που υιοθετεί την προσέγγιση "Human-in-the-loop" (HITL). Επιτρέπει στον χρήστη να επιβλέπει και να διορθώνει τις προβλέψεις του αλγορίθμου σε πραγματικό χρόνο μέσω μιας διαδραστικής διεπαφής σε Streamlit.
 
+#### 1.2.3. Ενότητα Ευρωπαϊκών Νομικών Κειμένων (EUR-Lex Dataset Toolkit)
+Η συγκεκριμένη εργαλειοθήκη εστιάζει στην αυτοματοποιημένη δημιουργία ενός σώματος κειμένων, το οποίο αντιστοιχίζει υψηλής ποιότητας συνόψεις με τα πλήρη νομικά κείμενα της Ευρωπαϊκής Ένωσης.
+* **Μηχανισμός Μαζικής Ανάκτησης Δεδομένων (`eur_lex_scraper.py`)**: Ένας εξειδικευμένος crawler που πλοηγείται στη θεματική ιεραρχία της πύλης EUR-Lex. Εντοπίζει δυναμικά τις ελληνικές συνόψεις, εξάγει τα μοναδικά αναγνωριστικά (CELEX IDs) και ανακτά τα πρωτογενή νομικά κείμενα σε πολλαπλές μορφές (HTML, PDF, TXT).
+* **Πλαίσιο Καθαρισμού και Στοίχισης Δεδομένων (`eur_lex_cleaner.py`)**: Λειτουργεί ως φίλτρο ποιότητας, μετατρέποντας τα ακατέργαστα δεδομένα HTML σε καθαρό κείμενο, έτοιμο για περαιτέρω επεξεργασία και αξιοποίηση. Εφαρμόζει τεχνικές όπως η ολική αφαίρεση Παραρτημάτων και επιβάλλει αυστηρό κανόνα ακεραιότητας. Το τελικό προϊόν είναι αρχεία κειμένου μίας γραμμής , μορφή που τυποποιεί τη δομή της πληροφορίας και είναι έτοιμη για άμεση αξιοποίηση σε οποιαδήποτε ροή εργασιών επεξεργασίας δεδομένων.
+
+#### 1.2.4. Ενότητα Κειμένων Αναφοράς Εθνικής Νομοθεσίας (Reference Texts)
+Η ενότητα αυτή εστιάζει στην αυτοματοποιημένη ανάκτηση, την εκκαθάριση και τον σημασιολογικό εμπλουτισμό πρωτογενών νομικών κειμένων, με στόχο τη δημιουργία ενός εθνικού σώματος κειμένων (corpus) υψηλής πιστότητας.
+* **Scraper & Dataset Builder (`scraper.py`)**: Πρόκειται για έναν εξειδικευμένο μηχανισμό scraping σε Python, ο οποίος υλοποιεί μια υβριδική προσέγγιση συλλογής δεδομένων. Συνδυάζει τη δομική ανάκτηση κειμένου με την ταυτόχρονη διασταύρωση μεταδεδομένων από το Εθνικό Τυπογραφείο (ET.gr). Το εργαλείο καθαρίζει τη νομική μορφοποίηση (Άρθρα, Παράγραφοι κ.λπ.), ενώ παράλληλα ανακτά δυναμικά τους συνδέσμους προς τα πρωτότυπα έγγραφα (PDF) και τις επίσημες θεματικές κατηγορίες. Ο κώδικας οργανώνει τα δεδομένα δημιουργώντας αυτόματα ένα κεντρικό ευρετήριο μεταδεδομένων (CSV), διασφαλίζοντας την ακεραιότητα του συνόλου.
+
 Η εργαλειοθήκη παραμένει δυναμική, με δυνατότητα ενσωμάτωσης πρόσθετων ενοτήτων (όπως εργαλεία Οπτικοποίησης και Αυτόματης Περίληψης) που θα υποστηρίξουν περαιτέρω τις ανάγκες του έργου σε επόμενα στάδια.
 
 | Αποθετήριο (Φάκελος) | Ρόλος | Τι περιέχει |
 | :--- | :--- | :--- |
 | **Classification Toolbox** | Εργαλεία σχετικά με classification | Enriched Label Descriptions, Dataset Creation Scripts |
 | **NER Toolbox** | Εργαλεία σχετικά με NER | Semi-Automated Annotation Framework |
+| **EUR-Lex** | Εργαλεία δημιουργίας ευρωπαϊκού corpus | EUR-Lex Scraper, Dataset Cleaner|
+| **Reference Texts** | Εργαλεία ανάκτησης εθνικής νομοθεσίας | Greek Legislation Scraper, Metadata CSV Generator |
 
 ## 1.3 Τεχνικές Απαιτήσεις & Εγκατάσταση
 
@@ -110,6 +134,7 @@ To set up the environment for the general toolbox:
 Η εργαλειοθήκη βασίζεται σε δοκιμασμένες βιβλιοθήκες ανοιχτού κώδικα για εργασίες Μηχανικής Μάθησης και NLP:
 *   **Επεξεργασία Δεδομένων & ML**: `numpy`, `scipy`, `scikit-learn`, `tqdm`.
 *   **Φυσική Επεξεργασία Γλώσσας**: `spaCy` (με χρήση του μοντέλου `el_core_news_sm` για τη βέλτιστη διαχείριση της ελληνικής γλώσσας).
+* **Ανάκτηση & Εξαγωγή Δεδομένων (Scraping/Parsing)**: `requests` (για αλληλεπίδραση με APIs και λήψη εγγράφων), `beautifulsoup4` (για ανάλυση ιεραρχίας HTML) και `trafilatura` (για τον αυστηρό καθαρισμό και τη γραμμικοποίηση νομικών κειμένων).
 *   **Διεπαφή Χρήστη**: `Streamlit` για την εκτέλεση της εφαρμογής ημιαυτόματης επισημείωσης (HITL).
 
 ### 1.3.3. Διαδικασία Εγκατάστασης
