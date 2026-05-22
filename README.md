@@ -34,9 +34,6 @@ This module creates a standardized reference dataset of national Greek legislati
 * **Key Components:**
     * `scraper.py`: Automates text extraction from complex legal structures and enriches metadata by cross-referencing with the National Printing House (ET.gr), outputting clean text files and a comprehensive CSV index.
 
-%### 5. General Purpose Toolbox
-%*Located in:* `/General Purpose Toolbox`
-%A designated space for cross-functional utilities and future general-purpose scripts that apply across different domains of %the project.
 
 ---
 
